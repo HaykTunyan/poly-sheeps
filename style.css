@@ -10,19 +10,21 @@ body {
 }
 
 .poly-navbar {
-  background-color: #eefbf6;
+  background-color: #3a2940;
 }
 
 .btn-buy {
-  background: #131828;
-  color: white;
+  background: #ffffff;
+  color: #000000;
   padding: 10px 15px;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .btn-buy:hover,
 .btn-buy:active {
-  background-color: #131828;
-  color: white;
+  background: #ffffff;
+  color: #000000;
 }
 
 .btn-check:focus + .btn,
@@ -41,6 +43,14 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
+}
+
+.profile-pic{
+  position: relative;
+  left: 45%;
+  top: 70%;
+  width: 30px;
 }
 
 .btn-light {
@@ -54,7 +64,7 @@ body {
 .btn-light:hover {
   transform: scale(
     1.08
-  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  );
 }
 
 .cowboy-card {
@@ -179,19 +189,26 @@ body {
     height: 180px;
   }
   .wrapper-categories .top-img {
-    width: 160px;
+    width: 200px;
     position: relative;
-    bottom: 30px;
+    bottom: 55px;
+  }
+  .profile-pic{
+    left: 47%;
   }
 }
 
 @media only screen and (min-width: 1024px) {
   .banner-img {
-    background-image: url("./assets/img/Cover@2x.jpg");
-    height: 400px;
+   height: 283px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+  .profile-pic{
+    left: 46%;
+    top: 65%;
+    width: 100px;
   }
 }
 
@@ -199,5 +216,9 @@ body {
   .team-img {
     width: 350px;
     height: 350px;
+  }
+  .profile-pic{
+    left: 47.3%;
+    width: 100px;
   }
 }
