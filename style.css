@@ -1,0 +1,203 @@
+html,
+body {
+  height: 100%;
+  min-height: 100%;
+  width: 100%;
+}
+
+.top-navbar {
+  background-color: #261f34;
+}
+
+.poly-navbar {
+  background-color: #eefbf6;
+}
+
+.btn-buy {
+  background: #131828;
+  color: white;
+  padding: 10px 15px;
+}
+
+.btn-buy:hover,
+.btn-buy:active {
+  background-color: #131828;
+  color: white;
+}
+
+.btn-check:focus + .btn,
+.btn:focus {
+  box-shadow: none;
+}
+
+.top-navbar .navbar-brand {
+  color: white;
+  font-size: 16px;
+}
+
+.banner-img {
+  background-image: url("./assets/img/Cover@2x.jpg");
+  height: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn-light {
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 0.375rem 1rem;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.btn-light:hover {
+  transform: scale(
+    1.08
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.cowboy-card {
+  background-color: #ffc12c;
+  color: white;
+}
+
+.inlove-card {
+  background-color: #fb416b;
+  color: white;
+}
+
+.info-card {
+  margin-top: 20px;
+  text-align: center;
+  justify-content: center;
+}
+
+.roadmap-banner {
+  margin-top: 20px;
+}
+
+/* Wrapper Categories */
+
+.wrapper-categories {
+  margin-top: 40px;
+}
+
+.row-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.cowboy-card,
+.inlove-card {
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.cowboy-card {
+  background-color: #ffc12c;
+}
+
+.inlove-card {
+  background-color: #fb416b;
+}
+
+.img-card {
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper-categories .top-img {
+  width: 160px;
+  position: relative;
+  bottom: 10px;
+}
+
+/* Roadmap */
+
+.roadmap-banner {
+  background-color: #e2e0e0;
+  padding-top: 20px;
+  padding-bottom: 55px;
+}
+
+.roadmap-card {
+  border-radius: 20px;
+  height: 230px;
+}
+
+.roadmap-card .card-title {
+  color: #48285d;
+  font-weight: 600;
+}
+
+/* Team */
+
+.team-section {
+  background-color: #9f88ad;
+  padding-bottom: 40px;
+}
+
+.team-img {
+  width: 250px;
+  height: 250px;
+}
+
+/* Footer */
+
+.team-title .banner-title {
+  color: #151217;
+}
+
+.banner-border {
+  background-color: #151217;
+  border-color: #151217;
+  height: 2px;
+}
+
+.poly-bg {
+  background-color: #3a2940;
+  color: white;
+}
+
+.poly-section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.test-white {
+  fill: white;
+}
+
+@media only screen and (min-width: 768px) {
+  .roadmap-card {
+    height: 280px;
+  }
+  .cowboy-card,
+  .inlove-card {
+    height: 180px;
+  }
+  .wrapper-categories .top-img {
+    width: 160px;
+    position: relative;
+    bottom: 30px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .banner-img {
+    background-image: url("./assets/img/Cover@2x.jpg");
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .team-img {
+    width: 350px;
+    height: 350px;
+  }
+}
