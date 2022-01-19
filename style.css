@@ -48,7 +48,7 @@ body {
 
 .profile-pic{
   position: relative;
-  left: 45%;
+  left: 45.5%;
   top: 70%;
   width: 30px;
 }
@@ -78,9 +78,11 @@ body {
 }
 
 .info-card {
-  margin-top: 20px;
+  /* margin-top: 20px; */
   text-align: center;
   justify-content: center;
+  position: relative;
+  bottom: 20px;
 }
 
 .roadmap-banner {
@@ -121,7 +123,7 @@ body {
 .wrapper-categories .top-img {
   width: 160px;
   position: relative;
-  bottom: 10px;
+  bottom: 40px;
 }
 
 /* Roadmap */
